@@ -4,6 +4,11 @@ import java.awt.event.KeyEvent;
 
 public class Keys {
 
+	/**
+	 * Method to get integer code of the given character.
+	 * @param key character.
+	 * @return integer key code.
+	 */
 	public static int getKeyCode(char key) {
 
 		int i = 0;
@@ -94,6 +99,11 @@ public class Keys {
 		return i;
 	}
 	
+	/**
+	 * Method to get the integer code of the modifier.
+	 * @param modifier modifier.
+	 * @return integer modifier code.
+	 */
 	public static int getKeyCode(String modifier) {
 		
 		int i = 0;
